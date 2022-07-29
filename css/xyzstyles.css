@@ -1,0 +1,92 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+/*body 				{background-image:url(../images/bg/tan-bg.jpg);
+					 	background-repeat:repeat;
+					 	font-family:Arial, Helvetica, sans-serif; 
+						}  */
+
+body 				{background-image:url(../images/beige-bg.jpg);
+					 	background-repeat:repeat;
+					 	font-family:Arial, Helvetica, sans-serif; 
+						}
+
+h1, h2, h3			{font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;} 
+
+h1					{font-size: 36px;}
+
+#wrapper 			{width:900px; margin: 10px auto;
+					 background-color: #ffffff;
+/*						background-image:url(../images/bg/texmuspapcolor.jpg); background-repeat:repeat; */
+					 padding: 0 40px;
+					 }
+					 
+
+#top				{}
+#logo				{float:left; margin:0;}
+
+#top-photo 		{float:right; margin:50px 0;}
+
+
+#topnav				{clear:both;}
+#topnav ul			{padding: 15px 0; margin: 0; border-top: 1px #000 dotted;} /*1st parm was 15px*/
+
+#topnav ul li		{display:inline;
+					 list-style-type:none;
+					 margin: 0 20px 0 0;}  /*parm 2 was 40px not 20px*/
+					 
+#topnav a:link		{ font-weight:bold; text-decoration:none; text-transform:uppercase;  color:#000; }
+#topnav a:visited	{ font-weight:bold; text-decoration:none; text-transform:uppercase;  color:#000; }
+#topnav a:active	{ font-weight:bold; text-decoration:none; text-transform:uppercase;  color:#000; }
+#topnav a:hover		{ font-weight:bold; text-decoration:none; text-transform:uppercase;  color:#A85400; }
+#topnav a:focus		{ font-weight:bold; text-decoration:none; text-transform:uppercase;  color:#A85400; }	
+				 
+					 
+#content			{float:left; width:900px;}  /* width was 580 */
+#content h2			{color:#A85400;}
+#content p			{font-size:12px; line-height:180%; }
+
+#introductory-txt	{ width:800px; margin: 5px auto;}
+/*#inaug-poster		{width:612; margin:10px 50px;} */
+/*#inaug-poster		{width: 612px; margin-left: 50px; padding: 0;} */
+
+#inaug-poster		{width: 612px; margin: 0px auto;}
+
+#mapquest-box		{width: 450px; margin: 10px auto;}
+
+#box1				{ width:265px; float:left; margin-right:40px;}
+#box2				{ width:265px; float:left;}
+#box3				{ width:265px; float:left; margin-right:40px;}
+#box4				{ width:265px; float:left;}
+
+#breevid		{ margin:10px 0;}
+
+.img-right			{ float:right; padding:0 0 0 25px;}
+.txt-line			{clear:both;}
+
+#rightside			{float:right; width:270px;}
+#rightside h2		{color:#A85400;}
+#rightside p		{font-size:12px; line-height:180%; }
+#rightside li		{font-size:12px; line-height:180%; }
+
+#footer				{ clear:both; padding: 10px 0; border-top: 1px #000 dotted;}
+#footer p			{text-align:center; font-size:14px; font-weight:bold; }
+
+/* Contact Form Styles */
+
+#contact-form ol li				{ list-style-type:none;}
+
+input, textarea					{display:block; width:350px; border:1px #000 solid; padding:5px;}
+textarea						{height:150px;}
+input:hover, textarea:hover		{background-color:#ffd9b3; } 
+input:focus, textarea:focus		{background-color:#ffd9b3; }
+label							{display:block; margin-top:10px;}
+.submit							{width:100px; margin-top:15px; }
+
+.performerpic					{width:265px; float:left; margin-right:40px;}
+.emceebox						{ width:265px; float:left; margin-right:40px;}
+.sponsorbox						{ width:265px; float:left;}

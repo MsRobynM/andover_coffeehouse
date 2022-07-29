@@ -1,0 +1,781 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+/*body 				{background-image:url(../images/bg/tan-bg.jpg);
+					 	background-repeat:repeat;
+					 	font-family:Arial, Helvetica, sans-serif; 
+
+						}  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../images/beige-bg.jpg);
+  background-repeat: repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+h1 {
+  font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#wrapper {
+  width: auto;
+  max-width: 900px;
+  /* width: 100%; */
+  margin: 10px auto;
+  background-color: #ffffff;
+  background-image: url(../images/bg/lgrey040.jpg);
+  background-repeat: repeat;
+  padding: 0 40px;
+  padding: 0 0;
+}
+
+/* #top				{} */
+#logo {
+  float: left;
+  margin: 40px 0 30px 0;
+}
+
+#top-photo {
+  float: right;
+  margin: 40px 0 30px 0;
+}
+
+#topnav {
+  clear: both;
+  margin: 10px auto 20px auto;
+  border: 1px solid #808080;
+  -webkit-border-radius: 25px;
+  border-radius: 20px;
+}
+#topnav ul {
+  padding: 15px 0;
+  margin: 0; /* border-top: 1px #000 dotted;*/
+  background-image: url(../images/bg/lgrey040.jpg);
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+} /*1st parm was 15px*/
+
+#topnav ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 20px 0 0;
+} /*parm 2 was 40px not 20px*/
+
+#topnav a:link {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+#topnav a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+#topnav a:active {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+#topnav a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a85400;
+}
+#topnav a:focus {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a85400;
+}
+
+#content-wrapper {
+  padding: 0px;
+  border: 0px solid #00ff00;
+}
+
+/* #content			{  */
+/*					float:left; width:900px;*/
+/* } */
+.content h2 {
+  color: #bb7700;
+}
+.content p {
+  font-size: 12px;
+  line-height: 180%;
+}
+
+#inaug-poster {
+  width: 612px;
+  margin: 20px auto;
+  clear: both;
+}
+
+#SummerSeriesOuter {
+  width: 900px;
+  min-height: 450px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  border-radius: 25px;
+}
+#SummerSeriesOuter h2 {
+  font-size: 28px;
+}
+#SummerSeriesOuter h3 {
+  color: #bb7700;
+}
+#SummerRight {
+  float: left;
+  width: 400px;
+}
+#SummerRight ul {
+  list-style-type: circle;
+  font-size: 24px;
+}
+#SummerRight li {
+  font-size: 24px;
+  color: #bb7700;
+}
+#Summerfloatleft {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+}
+
+#SplConcertBox {
+  width: 700px;
+  background-color: white;
+  min-height: 250px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  border-radius: 25px;
+}
+.SplImgBox {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#GrangeInfoOuter {
+  display: none;
+  max-width: 900px;
+  min-height: 450px;
+  clear: both;
+  background-color: rgba(153, 98, 3, 0.081);
+  padding: 20px;
+}
+/*margin:0px auto; border: 2px solid #CC0033; border-radius:25px;} */
+#GrangeInfoOuter h2 {
+  font-size: 24px;
+}
+#GrangeInfoOuter h2 {
+  color: #46230a;
+} /*#bb7700;*/
+#GrangeInfoRight {
+  float: left;
+  max-width: 480px;
+}
+#GrangeInfoRight ul {
+  list-style-type: circle;
+  font-size: 24px;
+}
+#GrangeInfoRight li {
+  font-size: 24px;
+  color: #46230a;
+}
+#GrangeInfofloatleft {
+  float: left;
+  /* width: 250px; */
+  margin-left: 20px;
+  margin-top: 20px;
+  margin: 20px 30px;
+  /* background: red; */
+}
+
+#GrangeInfoOuter h2.concert_info_announce {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.majorheadingbanner {
+  min-height: 50px;
+  width: 100%;
+  background-color: rgba(153, 98, 3, 0.081);
+  padding: 0;
+}
+
+.majorheadingbanner h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #46230a;
+}
+
+.majorheadingbanner h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #46230a;
+}
+
+.venueinfobox {
+  background: rgba(153, 98, 3, 0.081);
+  border-radius: 20px;
+  margin: 1rem 0;
+  /* padding-top: 1rem;
+	padding-bottom: 1rem; */
+  padding: 1rem;
+}
+.venue-title {
+  color: #bb7700;
+  text-align: center;
+  letter-spacing: 4px;
+  /* margin-top: 1em; */
+  padding-top: 0;
+  text-transform: uppercase;
+  /* margin-bottom: 16px; */
+  line-height: 1.1;
+  margin: 0;
+}
+
+.venue-subtitle {
+  color: #bb7700;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.venue-location p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Monthly Concert Box */
+
+/*.monthlyconcertbox	{width:700px; min-height:550px; border: 2px solid #CC0033; clear:both; margin:0px auto; padding: 0 10px; border-radius:25px;} */
+
+div.monthlyconcertbox::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.monthlyconcertbox {
+  width: 700px;
+  width: 86%;
+  border: 2px solid #cc0033;
+  border: 2px solid #996203;
+  clear: both;
+  margin: 0 auto 18px auto;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.monthlypicdiv {
+  max-width: 350px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicdiv350 {
+  max-width: 350px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicdiv170 {
+  width: 170px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicdiv220 {
+  width: 220px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicdiv250 {
+  width: 250px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicdiv680 {
+  width: 680px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.monthlypicimg {
+  padding-top: 2px;
+  padding-bottom: 10px;
+  /* padding-left: auto;
+	padding-right: auto; */
+  width: 100%;
+} /*WAS 10*/
+.float-left-width300 {
+  float: left;
+  width: 300px;
+}
+.float-left-width400 {
+  float: left;
+  width: 400px;
+}
+.vidbox-float-right {
+  float: right;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.ytboxsmall {
+  display: none;
+}
+
+.ytboxtiny {
+  display: none;
+}
+.banner-smallscreen {
+  display: none;
+  width: 100%;
+  height: 230px;
+  background-image: url("../images/banner/bnr01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+}
+
+@media screen and (max-width: 900px) {
+  #banner {
+    display: none;
+  }
+  .banner-smallscreen {
+    display: block;
+    /*
+		width: 100%; 
+		height: 230px; 
+		background-image: url('../images/banner/bnr01.jpg'); 
+		background-size: cover; 
+		background-position: center; 
+		background-position: bottom;
+*/
+  }
+
+  /* #topnav {
+		display: none;
+	} */
+}
+
+@media screen and (max-width: 800px) {
+  #GrangeInfofloatleft,
+  #GrangeInfoRight {
+    float: none;
+
+    margin: 0 auto;
+  }
+  #GrangeInfofloatleft {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .monthlypicdiv,
+  .monthlypicdiv350 {
+    float: none;
+    border: 1px solid red;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ytboxsmall {
+    display: block;
+  }
+  .ytboxbig {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ytboxtiny {
+    display: block;
+  }
+  .ytboxsmall {
+    display: none;
+  }
+  .ytboxbig {
+    display: none;
+  }
+}
+
+div.oldcalconcertbox::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.oldcalconcertbox {
+  width: 700px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+
+.oldcalconcertbox p {
+  line-height: 1.4;
+}
+
+div.monthlypicdiv350 ul,
+li {
+  margin: 0 0 0 5px;
+  padding: 0;
+  font-size: 14px;
+}
+
+#box20150703 {
+  width: 255px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: thick;
+  border-color: #bb7700;
+}
+#box20150703 img {
+  padding-top: 10px;
+} /* this is used in box 5*/
+
+#sponsorouter {
+  width: 700px;
+  min-height: 230px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+#SponsorReq {
+  width: 190px;
+  height: 200px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+#SponsorReq2 {
+  width: 190px;
+  height: 200px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+.SponsorReqBox {
+  width: 190px;
+  height: 200px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+/* #box1 img			{ width:187px; margin:0px auto; border:thick; border-color:#bb7700}*/
+/*
+#box2				{ width:265px; float:left;}
+#box3				{ width:265px; float:left; margin-right:40px;}
+#box4				{ width:265px; float:left;}
+
+#breevid		{ margin:10px 0;}
+
+.img-right			{ float:right; padding:0 0 0 25px;}
+.txt-line			{clear:both;}
+
+
+#rightside			{float:right; width:270px;}
+#rightside h2		{color:#A85400;}
+#rightside p		{font-size:12px; line-height:180%; }
+#rightside li		{font-size:12px; line-height:180%; }
+*/
+
+/* UTILITY */
+.padmeup10 {
+  padding-top: 10px;
+}
+.ctr-txt-bx {
+  width: 680px;
+  margin: 0 auto;
+  border: 2px solid #a0a0a0;
+  clear: both;
+  border-radius: 10px;
+}
+.pad-me-little {
+  padding: 2px 4px;
+}
+.txt-red {
+  color: #ff0000;
+}
+.txt-line {
+  clear: both;
+}
+.txt-big {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.txt-bigger18 {
+  font-size: 30px;
+}
+.lhsflt {
+  float: left;
+  width: 300px;
+}
+.lineheight140 {
+  line-height: 140%;
+}
+.txt-center {
+  text-align: center;
+}
+
+.noshow {
+  display: none;
+}
+
+.signoffbox {
+  width: 612px;
+  width: 86%;
+  border: 2px solid #996203;
+  margin: 20px auto;
+  clear: both;
+  padding: 0 10px;
+}
+
+#footer {
+  clear: both;
+  padding: 10px 0;
+  border-top: 1px #000 dotted;
+}
+#footer p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+#footer h4 {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* The following is for directions.html*/
+#mapquest-box {
+  width: 450px;
+  margin: 10px auto;
+}
+
+/*The following is for showgallery.html*/
+.galdescbox {
+  width: 700px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+
+.galpicbox {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 0px auto;
+}
+.galpicbox img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 0px auto;
+}
+#gallery img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery2 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery2 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery3 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery3 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery4 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery4 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery5 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery5 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery6 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery6 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery7 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery7 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery8 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery8 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery9 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery9 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery10 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery10 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery11 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery11 img {
+  padding: 10px 0px 10px 10px;
+}
+
+#gallery12 {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+#gallery12 img {
+  padding: 10px 0px 10px 10px;
+}
+
+.galphotobox {
+  width: 845px;
+  border: 2px solid #cc0033;
+  margin: 30px auto;
+}
+.galphotobox img {
+  padding: 10px 0px 10px 10px;
+}
+
+#missionbox1outer {
+  width: 700px;
+  min-height: 350px;
+  border: 2px solid #cc0033;
+  clear: both;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+
+/* modal Support*/
+.ui-widget-header,
+.ui-state-default,
+ui-button {
+  background: #ff0000; /*#b9cd6d;*/
+  border: 1px solid #ff0000; /*#b9cd6d;*/
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Contact Form Styles */
+/*
+#contact-form ol li				{ list-style-type:none;}
+
+input, textarea					{display:block; width:350px; border:1px #000 solid; padding:5px;}
+textarea						{height:150px;}
+input:hover, textarea:hover		{background-color:#ffd9b3; } 
+input:focus, textarea:focus		{background-color:#ffd9b3; }
+label							{display:block; margin-top:10px;}
+.submit							{width:100px; margin-top:15px; }
+
+.performerpic					{width:265px; float:left; margin-right:40px;}
+.emceebox						{ width:265px; float:left; margin-right:40px;}
+.sponsorbox						{ width:265px; float:left;}
+*/
+.blucolortext {
+  color: #00f;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
