@@ -779,3 +779,27 @@ label							{display:block; margin-top:10px;}
   clear: both;
   display: table;
 }
+
+.dark-card {
+  margin: 2rem auto;
+  max-width: 80%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  padding: 1.5rem;
+  background-color: #555;
+  color: #ff8050;
+  border-radius: 0.5rem;
+}
+.dark-card p {
+  text-align: center;
+  padding: 0.5rem;
+}
+.dark-card a {
+  color: #ddd;
+}
+.dark-card hr {
+  height: 1px;
+  background-color: #eee;
+  border: none;
+  margin-bottom: 1.5rem;
+}
